@@ -6,5 +6,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return int (a)>0
+    return  float (a)-int (a)==0 and a>0
 print (main(1.1)) 
