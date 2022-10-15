@@ -6,4 +6,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return float(pow (a,1/2))-int(pow (a,1/2))==0 and a>0
+print (main(9))
